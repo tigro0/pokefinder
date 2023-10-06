@@ -9,8 +9,18 @@
 </head>
 <body>
     <div class="searchbar">
-        <input type="text" name="search" placeholder="Charizard, Pikachu etc." id="search">
-        <button type="submit" class="searchbar-btn" onclick=getPokemon()><span class="material-symbols-outlined" style="font-size: 24px;">search</span></button>
+        <div id="autocomplete">
+            <input type="text" name="search" placeholder="Charizard, Pikachu etc." id="search">
+            <div id="dropdown">
+                <div id="dropdown-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, culpa!</p>
+                    <p>Eos, recusandae officia consequatur quas laudantium minima molestiae facere beatae.</p>
+                    <p>Molestiae exercitationem veniam tempora, harum modi cupiditate eaque id sint!</p>
+                    <p>Facere hic, perferendis temporibus deserunt et ea voluptas eligendi reprehenderit.</p>
+                </div>
+            </div>
+        </div>
+        <button type="submit" id="searchbar-btn" onclick=getPokemon()><span class="material-symbols-outlined" style="font-size: 24px;">search</span></button>
     </div>
     <div class="card">
         <h1 id="pokemon-name"></h1>
