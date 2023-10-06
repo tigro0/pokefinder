@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Pokemon finder</title>
+</head>
+<body>
+    <div class="searchbar">
+        <div id="autocomplete">
+            <input type="text" name="search" placeholder="Charizard, Pikachu etc." id="search">
+            <div id="dropdown">
+                <div id="dropdown-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, culpa!</p>
+                    <p>Eos, recusandae officia consequatur quas laudantium minima molestiae facere beatae.</p>
+                    <p>Molestiae exercitationem veniam tempora, harum modi cupiditate eaque id sint!</p>
+                    <p>Facere hic, perferendis temporibus deserunt et ea voluptas eligendi reprehenderit.</p>
+                </div>
+            </div>
+        </div>
+        <button type="submit" id="searchbar-btn" onclick=getPokemon()><span class="material-symbols-outlined" style="font-size: 24px;">search</span></button>
+    </div>
+    <div class="card">
+        <h1 id="pokemon-name"></h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/White_square_50%25_transparency.svg/1024px-White_square_50%25_transparency.svg.png" alt="" id="pokemon-sprite">
+        <p id="pokemon-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime repellendus fugiat rerum illum ipsam cumque est eius a atque aspernatur!</p>
+    </div>
+    <script src="pokewiki.js"></script>
+</body>
+</html>
