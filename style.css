@@ -11,6 +11,7 @@ html{
 }
 body{
     margin: 0;
+    line-height: 1.2;
     font-family: "pokemon HGSS", Arial, Helvetica, sans-serif;
     text-shadow: #000 0.1rem 0rem;
     font-weight: 500;
