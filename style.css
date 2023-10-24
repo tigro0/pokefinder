@@ -3,6 +3,7 @@
 }
 @font-face {
     font-family: 'pokemon HGSS';
+    descent-override: 15%;
     src: url('fonts/pkmndp.woff2') format('woff2');
 }
 html{
